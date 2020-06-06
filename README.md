@@ -182,7 +182,7 @@ Request Delete: http://localhost:8082/v1/btg/jokenpo/play
 ```json
 {
     "meta": {
-        "timestamp": "2020-04-24T12:17:29.885+0000"
+        "timestamp": "2020-06-05T00:00:00.000+0000"
     },
     "data": []
 }
