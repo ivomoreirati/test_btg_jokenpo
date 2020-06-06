@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-06T01:27:47" hostname="MacBook-Pro-de-Ivo.local" time="0.554">
+  <properties/>
+  <testcase name="clearAllAPI" classname="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" time="0.467"/>
+  <testcase name="playWithWinnerAPI" classname="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" time="0.067"/>
+  <testcase name="playWithNobodyWonAPI" classname="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" time="0.017"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-06-05 22:27:46 - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-06-05 22:27:46 - Root WebApplicationContext: initialization completed in 952 ms
+2020-06-05 22:27:47 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-06-05 22:27:47 - 10 mappings in 'requestMappingHandlerMapping'
+2020-06-05 22:27:47 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-06-05 22:27:47 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-06-05 22:27:47 - HTTP DELETE http://localhost:57043/v1/btg/jokenpo/playgames/?playerName=P1
+2020-06-05 22:27:47 - Initializing Servlet 'dispatcherServlet'
+2020-06-05 22:27:47 - Detected StandardServletMultipartResolver
+2020-06-05 22:27:47 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-06-05 22:27:47 - Completed initialization in 45 ms
+2020-06-05 22:27:47 - DELETE "/v1/btg/jokenpo/playgames/?playerName=P1", parameters={masked}
+2020-06-05 22:27:47 - Mapped to br.com.btg.playgames.jokenpo.controller.JokenpoController#reset()
+2020-06-05 22:27:47 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:47 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@7a6d9afb]
+2020-06-05 22:27:47 - Response 200 OK
+2020-06-05 22:27:47 - Completed 200 OK
+2020-06-05 22:27:47 - HTTP GET http://localhost:57043/v1/btg/jokenpo/playgames
+2020-06-05 22:27:47 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:47 - GET "/v1/btg/jokenpo/playgames", parameters={}
+2020-06-05 22:27:47 - Mapped to br.com.btg.playgames.jokenpo.controller.JokenpoController#play()
+2020-06-05 22:27:47 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:47 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@61b3171c]
+2020-06-05 22:27:47 - Completed 200 OK
+2020-06-05 22:27:47 - Response 200 OK
+2020-06-05 22:27:47 - Reading to [java.lang.String] as "application/json"
+2020-06-05 22:27:47 - HTTP GET http://localhost:57043/v1/btg/jokenpo/playgames
+2020-06-05 22:27:47 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:47 - GET "/v1/btg/jokenpo/playgames", parameters={}
+2020-06-05 22:27:47 - Mapped to br.com.btg.playgames.jokenpo.controller.JokenpoController#play()
+2020-06-05 22:27:47 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:47 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@10182e6d]
+2020-06-05 22:27:47 - Response 200 OK
+2020-06-05 22:27:47 - Completed 200 OK
+2020-06-05 22:27:47 - Reading to [java.lang.String] as "application/json"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-06T01:27:47" hostname="MacBook-Pro-de-Ivo.local" time="0.322">
+  <properties/>
+  <testcase name="getAllWithoutAnyMovementInsertedAPI" classname="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" time="0.036"/>
+  <testcase name="insertMovementAPI" classname="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" time="0.239"/>
+  <testcase name="deleteMovementByNameAPI" classname="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" time="0.045"/>
+  <system-out><![CDATA[2020-06-05 22:27:48 - HTTP GET http://localhost:57043/v1/btg/jokenpo/move
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - GET "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#getAll()
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@7a04af6c]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as "application/json"
+2020-06-05 22:27:48 - HTTP POST http://localhost:57043/v1/btg/jokenpo/move
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - Writing [MoveRequest{playerName='P2', movement='PAPER'}] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2020-06-05 22:27:48 - POST "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#insert(MoveRequestDTO)
+2020-06-05 22:27:48 - Read "application/json;charset=UTF-8" to [MoveRequest{playerName='P2', movement='PAPER'}]
+2020-06-05 22:27:48 - javax.persistence.spi::No valid providers found.
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@4b044bf8]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as "application/json"
+2020-06-05 22:27:48 - HTTP GET http://localhost:57043/v1/btg/jokenpo/move
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - GET "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#getAll()
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@19b03328]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as "application/json"
+2020-06-05 22:27:48 - HTTP DELETE http://localhost:57043/v1/btg/jokenpo/move/?playerName=P3
+2020-06-05 22:27:48 - DELETE "/v1/btg/jokenpo/move/?playerName=P3", parameters={masked}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#delete(String)
+2020-06-05 22:27:48 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@279a2dba]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - HTTP GET http://localhost:57043/v1/btg/jokenpo/move
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - GET "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#getAll()
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@779b4be]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as "application/json"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

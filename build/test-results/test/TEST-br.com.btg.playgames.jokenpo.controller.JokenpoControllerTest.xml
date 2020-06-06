@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-06T02:12:15" hostname="MacBook-Pro-de-Ivo.local" time="0.149">
+  <properties/>
+  <testcase name="clearAllAPI" classname="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" time="0.054"/>
+  <testcase name="playWithWinnerAPI" classname="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" time="0.059"/>
+  <testcase name="playWithNobodyWonAPI" classname="br.com.btg.playgames.jokenpo.controller.JokenpoControllerTest" time="0.029"/>
+  <system-out><![CDATA[2020-06-05 23:12:15 - HTTP DELETE http://localhost:57558/v1/btg/jokenpo/play/?playerName=P1
+2020-06-05 23:12:15 - DELETE "/v1/btg/jokenpo/play/?playerName=P1", parameters={masked}
+2020-06-05 23:12:15 - Mapped to br.com.btg.playgames.jokenpo.controller.JokenpoController#clear()
+2020-06-05 23:12:15 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@40c1c73c]
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - HTTP GET http://localhost:57558/v1/btg/jokenpo/play
+2020-06-05 23:12:15 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 23:12:15 - GET "/v1/btg/jokenpo/play", parameters={}
+2020-06-05 23:12:15 - Mapped to br.com.btg.playgames.jokenpo.controller.JokenpoController#play()
+2020-06-05 23:12:15 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@4671014a]
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - Reading to [java.lang.String] as "application/json"
+2020-06-05 23:12:15 - HTTP GET http://localhost:57558/v1/btg/jokenpo/play
+2020-06-05 23:12:15 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 23:12:15 - GET "/v1/btg/jokenpo/play", parameters={}
+2020-06-05 23:12:15 - Mapped to br.com.btg.playgames.jokenpo.controller.JokenpoController#play()
+2020-06-05 23:12:15 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@42f99f77]
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - Reading to [java.lang.String] as "application/json"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-06T02:12:13" hostname="MacBook-Pro-de-Ivo.local" time="2.05">
+  <properties/>
+  <testcase name="getAllWithoutAnyMovementInsertedAPI" classname="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" time="1.549"/>
+  <testcase name="insertMovementAPI" classname="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" time="0.368"/>
+  <testcase name="deleteMovementByNameAPI" classname="br.com.btg.playgames.jokenpo.controller.MoveControllerTest" time="0.125"/>
+  <system-out><![CDATA[23:12:05.536 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:05.563 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:12:05.591 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:12:05.661 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:12:05.703 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest], using SpringBootContextLoader
+23:12:05.712 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]: class path resource [br/com/btg/playgames/jokenpo/controller/MoveControllerTest-context.xml] does not exist
+23:12:05.714 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]: class path resource [br/com/btg/playgames/jokenpo/controller/MoveControllerTestContext.groovy] does not exist
+23:12:05.715 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:12:05.718 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]: MoveControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:12:06.171 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/ivo/Desktop/projetos/btg-jokenpo-master/jokenpo/build/classes/java/main/br/com/btg/playgames/jokenpo/JokenpoApplication.class]
+23:12:06.174 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.btg.playgames.jokenpo.JokenpoApplication for test class br.com.btg.playgames.jokenpo.controller.MoveControllerTest
+23:12:06.433 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]: using defaults.
+23:12:06.435 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+23:12:06.470 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d6b705a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@37e21741, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c193900, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1ce42cac, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a8b76ca, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d7432c5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3820cd52, org.springframework.test.context.event.EventPublishingTestExecutionListener@51c07b6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44600cf9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@589eecaa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@66eae0b6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ae6a6a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@476db922]
+23:12:06.492 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.494 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.503 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.504 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.507 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.509 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.517 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@43fab4bd testClass = MoveControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3c8d608b testClass = MoveControllerTest, locations = '{}', classes = '{class br.com.btg.playgames.jokenpo.JokenpoApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@714d7a51, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@54434917, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@758b48fb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3b53175], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+23:12:06.523 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.525 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.btg.playgames.jokenpo.controller.MoveControllerTest]
+23:12:06.534 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@43fab4bd testClass = MoveControllerTest, testInstance = br.com.btg.playgames.jokenpo.controller.MoveControllerTest@957ac4e, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3c8d608b testClass = MoveControllerTest, locations = '{}', classes = '{class br.com.btg.playgames.jokenpo.JokenpoApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@714d7a51, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@54434917, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@758b48fb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3b53175], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]]].
+23:12:06.651 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2040933616
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-06-05 23:12:11 - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-06-05 23:12:11 - Root WebApplicationContext: initialization completed in 3418 ms
+2020-06-05 23:12:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-06-05 23:12:12 - 10 mappings in 'requestMappingHandlerMapping'
+2020-06-05 23:12:12 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-06-05 23:12:12 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-06-05 23:12:14 - HTTP GET http://localhost:57558/v1/btg/jokenpo/move
+2020-06-05 23:12:14 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 23:12:14 - Initializing Servlet 'dispatcherServlet'
+2020-06-05 23:12:14 - Detected StandardServletMultipartResolver
+2020-06-05 23:12:14 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-06-05 23:12:14 - Completed initialization in 51 ms
+2020-06-05 23:12:14 - GET "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 23:12:14 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#getAll()
+2020-06-05 23:12:14 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:14 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@4798abf5]
+2020-06-05 23:12:14 - Completed 200 OK
+2020-06-05 23:12:14 - Response 200 OK
+2020-06-05 23:12:14 - Reading to [java.lang.String] as "application/json"
+2020-06-05 23:12:14 - HTTP POST http://localhost:57558/v1/btg/jokenpo/move
+2020-06-05 23:12:14 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 23:12:14 - Writing [MoveRequest{playerName='P2', movement='PAPER'}] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2020-06-05 23:12:14 - POST "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 23:12:14 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#insert(MoveRequestDTO)
+2020-06-05 23:12:15 - Read "application/json;charset=UTF-8" to [MoveRequest{playerName='P2', movement='PAPER'}]
+2020-06-05 23:12:15 - javax.persistence.spi::No valid providers found.
+2020-06-05 23:12:15 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@7313e040]
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - Reading to [java.lang.String] as "application/json"
+2020-06-05 23:12:15 - HTTP GET http://localhost:57558/v1/btg/jokenpo/move
+2020-06-05 23:12:15 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 23:12:15 - GET "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 23:12:15 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#getAll()
+2020-06-05 23:12:15 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@201b1669]
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - Reading to [java.lang.String] as "application/json"
+2020-06-05 23:12:15 - HTTP DELETE http://localhost:57558/v1/btg/jokenpo/move/?playerName=P3
+2020-06-05 23:12:15 - DELETE "/v1/btg/jokenpo/move/?playerName=P3", parameters={masked}
+2020-06-05 23:12:15 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#deleteByPlayerName(String)
+2020-06-05 23:12:15 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@2ac89efd]
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - HTTP GET http://localhost:57558/v1/btg/jokenpo/move
+2020-06-05 23:12:15 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 23:12:15 - GET "/v1/btg/jokenpo/move", parameters={}
+2020-06-05 23:12:15 - Mapped to br.com.btg.playgames.jokenpo.controller.MoveController#getAll()
+2020-06-05 23:12:15 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 23:12:15 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@7808bbfa]
+2020-06-05 23:12:15 - Completed 200 OK
+2020-06-05 23:12:15 - Response 200 OK
+2020-06-05 23:12:15 - Reading to [java.lang.String] as "application/json"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

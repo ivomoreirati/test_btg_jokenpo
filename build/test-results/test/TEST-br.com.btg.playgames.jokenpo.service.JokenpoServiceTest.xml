@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-06-06T02:12:17" hostname="MacBook-Pro-de-Ivo.local" time="0.152">
+  <properties/>
+  <testcase name="paperVersusScissorsPlaying" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.015"/>
+  <testcase name="historyBeforePlayWithExpectException" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.024"/>
+  <testcase name="invalidMovementPlayingWithExpectException" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.01"/>
+  <testcase name="playingRemovingAndIncludingSomePlayers1" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.007"/>
+  <testcase name="playingRemovingAndIncludingSomePlayers2" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.008"/>
+  <testcase name="spockVersusPaperPlaying" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.008"/>
+  <testcase name="clearAllDataWithSucess" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.011"/>
+  <testcase name="historyAfterPlayedWithSucess" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.007"/>
+  <testcase name="lizardVersusScissorsVersusPaperPlaying" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.006"/>
+  <testcase name="someMovementsPossibilitiesWithSucess" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.013"/>
+  <testcase name="paperVersusScissorsVersusStonePlaying" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.006"/>
+  <testcase name="lizardVersusScissorsPlaying" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.007"/>
+  <testcase name="playingRemovingAndIncludingSomeMovements" classname="br.com.btg.playgames.jokenpo.service.JokenpoServiceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

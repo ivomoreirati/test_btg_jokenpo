@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class br.com.btg.playgames.jokenpo.controller.PlayerControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class br.com.btg.playgames.jokenpo.controller.PlayerControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/br.com.btg.playgames.jokenpo.controller.html">br.com.btg.playgames.jokenpo.controller</a> &gt; PlayerControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.090s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deletePlayerByNameAPI</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllWithoutAnyPlayersInsertedAPI</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">insertPlayerAPI</td>
+<td class="success">0.044s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2020-06-05 22:27:48 - HTTP POST http://localhost:57043/v1/btg/jokenpo/player
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - Writing [PlayerRequest{name='P1'}] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2020-06-05 22:27:48 - POST &quot;/v1/btg/jokenpo/player&quot;, parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.PlayerController#insert(PlayerRequestDTO)
+2020-06-05 22:27:48 - Read &quot;application/json;charset=UTF-8&quot; to [PlayerRequest{name='P1'}]
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@6b86b30a]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as &quot;application/json&quot;
+2020-06-05 22:27:48 - HTTP GET http://localhost:57043/v1/btg/jokenpo/player
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - GET &quot;/v1/btg/jokenpo/player&quot;, parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.PlayerController#getAll()
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@64bc49f0]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as &quot;application/json&quot;
+2020-06-05 22:27:48 - HTTP DELETE http://localhost:57043/v1/btg/jokenpo/player/?playerName=P1
+2020-06-05 22:27:48 - DELETE &quot;/v1/btg/jokenpo/player/?playerName=P1&quot;, parameters={masked}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.PlayerController#delete(String)
+2020-06-05 22:27:48 - Player movement not found : P1
+2020-06-05 22:27:48 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@28817f5c]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - HTTP GET http://localhost:57043/v1/btg/jokenpo/player
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - GET &quot;/v1/btg/jokenpo/player&quot;, parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.PlayerController#getAll()
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@5a3ec122]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as &quot;application/json&quot;
+2020-06-05 22:27:48 - HTTP GET http://localhost:57043/v1/btg/jokenpo/player
+2020-06-05 22:27:48 - Accept=[text/plain, application/json, application/*+json, */*]
+2020-06-05 22:27:48 - GET &quot;/v1/btg/jokenpo/player&quot;, parameters={}
+2020-06-05 22:27:48 - Mapped to br.com.btg.playgames.jokenpo.controller.PlayerController#getAll()
+2020-06-05 22:27:48 - Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-06-05 22:27:48 - Writing [br.com.btg.playgames.jokenpo.presenters.base.BaseDTO@1edfd21e]
+2020-06-05 22:27:48 - Completed 200 OK
+2020-06-05 22:27:48 - Response 200 OK
+2020-06-05 22:27:48 - Reading to [java.lang.String] as &quot;application/json&quot;
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Jun 5, 2020, 10:27:48 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-06T02:12:17" hostname="MacBook-Pro-de-Ivo.local" time="0.072">
+  <properties/>
+  <testcase name="deleteByNameWithException" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.007"/>
+  <testcase name="duplicateInsertForExceptionGenerate" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.009"/>
+  <testcase name="getAllPlayersWithSucess" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.007"/>
+  <testcase name="oneInsertWithSucess" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.006"/>
+  <testcase name="deleteByNameWithSucess" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.008"/>
+  <testcase name="getEntityByNameWithSucess" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.004"/>
+  <testcase name="clearAllWithSucess" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.005"/>
+  <testcase name="getEntityByNameWithException" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.004"/>
+  <testcase name="manyDifferentInsertsWithSuccess" classname="br.com.btg.playgames.jokenpo.service.PlayerServiceTest" time="0.006"/>
+  <system-out><![CDATA[2020-06-05 23:12:17 - Player movement not found : INEXISTENTE
+2020-06-05 23:12:17 - Player already exists
+2020-06-05 23:12:18 - Player movement not found : P1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

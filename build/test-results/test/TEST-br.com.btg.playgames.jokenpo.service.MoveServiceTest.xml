@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.btg.playgames.jokenpo.service.MoveServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-06T02:12:17" hostname="MacBook-Pro-de-Ivo.local" time="0.135">
+  <properties/>
+  <testcase name="insertOneMovement" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.014"/>
+  <testcase name="insertMovementForDifferentPlayersWithSucess" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.029"/>
+  <testcase name="playersWithoutMovements" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.007"/>
+  <testcase name="deleteOneMovementAfterInsertAnotherWithSucess" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.009"/>
+  <testcase name="deleteOneMovementWithSucess" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.013"/>
+  <testcase name="insertDuplicatedMovementForSamePlayerAndSameMovementWithException" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.014"/>
+  <testcase name="insertManyPlayersForTestWithSucess" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.017"/>
+  <testcase name="insertDuplicatedMovementForSamePlayerWithException" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.009"/>
+  <testcase name="clearAllMovementsWithSucess" classname="br.com.btg.playgames.jokenpo.service.MoveServiceTest" time="0.007"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-06-05 23:12:15 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5a959bf2
+2020-06-05 23:12:16 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-06-05 23:12:17 - 10 mappings in 'requestMappingHandlerMapping'
+2020-06-05 23:12:17 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-06-05 23:12:17 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-06-05 23:12:17 - Movement already exists for these player
+2020-06-05 23:12:17 - Movement already exists for these player
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
